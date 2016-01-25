@@ -1,0 +1,84 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package org.project;
+
+/**
+ *
+ * @author Veotek
+ */
+public class Employee {
+    
+    private int id;
+    private String name;
+    private String phone;
+    private String email;
+    private float salary;
+    private String area;
+
+    public Employee() {
+    }
+
+    
+    public Employee(int id, String name, String phone, String email, float salary, String area) {
+        this.id = id;
+        this.name = name;
+        this.phone = phone;
+        this.email = email;
+        this.salary = salary;
+        this.area = area;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public float getSalary() {
+        return salary;
+    }
+
+    public void setSalary(float salary) {
+        this.salary = salary;
+    }
+
+    public String getArea() {
+        return area;
+    }
+
+    public void setArea(String area) {
+        this.area = area;
+    }
+    
+    
+    
+}
